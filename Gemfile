@@ -123,3 +123,7 @@ end
 
 # We recommend using strong migrations when your app is in production
 # gem "strong_migrations", "~> 0.7.6"
+
+# Add your own gems here, they will be installed in the order specified.
+
+## PLEASE KEEP THINGS TIDY.  DO NOT HAVE GEMS BELOW THIS LINE.
