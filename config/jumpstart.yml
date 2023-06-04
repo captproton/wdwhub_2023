@@ -1,0 +1,17 @@
+--- !ruby/object:Jumpstart::Configuration
+application_name: WDW Hub
+business_name: Second Star Labs
+domain: wdwhub.net
+support_email: hello@secondstarlabs.com
+default_from_email: WDW Hub <hello@secondstarlabs.com>
+business_address: ''
+background_job_processor: sidekiq
+email_provider: postmark
+personal_accounts: true
+solargraph: false
+register_with_account: true
+apns: false
+fcm: false
+collect_billing_address: false
+multitenancy:
+- subdomain
